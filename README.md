@@ -10,7 +10,7 @@ Can you make Gutenberg blocks with ClojureScript?
 ## Conjure
 
 * [X] Add CIDER middleware
-* [ ] One-liner to start REPL
+* [X] One-liner to start REPL
 
 ## FAQ ##
 
