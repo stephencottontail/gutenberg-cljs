@@ -7,6 +7,11 @@ Can you make Gutenberg blocks with ClojureScript?
 * [ ] Set up Gutenberg environment for testing
 * [ ] Separate builds for dev and prod
 
+## Conjure
+
+* [X] Add CIDER middleware
+* [ ] One-liner to start REPL
+
 ## FAQ ##
 
 **Do people even want to make Gutenberg blocks in ClojureScript?**
