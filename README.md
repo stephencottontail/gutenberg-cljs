@@ -15,6 +15,11 @@ Can you make Gutenberg blocks with ClojureScript?
 * [ ] Get editor to show up
 * [ ] Basic editor functionality
 
+## Conjure
+
+* [X] Add CIDER middleware
+* [X] One-liner to start REPL
+
 ## FAQ ##
 
 **Do people even want to make Gutenberg blocks in ClojureScript?**

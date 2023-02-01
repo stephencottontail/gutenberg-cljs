@@ -1,8 +1,10 @@
+.nrepl-port
+
 .cpcache/
 .cpcache/**
 
 target/
 target/**
 
-node_modules/
-node_modules/**
+out/
+out/**
