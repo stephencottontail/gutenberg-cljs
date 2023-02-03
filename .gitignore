@@ -3,6 +3,9 @@
 .cpcache/
 .cpcache/**
 
+node_modules/
+node_modules/**
+
 target/
 target/**
 
