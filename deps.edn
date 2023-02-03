@@ -1,14 +1,14 @@
 {:deps {org.clojure/clojure {:mvn/version "1.10.1"}
-        org.clojure/clojurescript {:mvn/version "1.10.597"}
+        org.clojure/clojurescript {:mvn/version "1.11.4"}
         reagent/reagent {:mvn/version "1.1.1" :exclusions [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server]}}
  :paths ["src" "resources"]
  :aliases {:fig {:extra-deps
                  {com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
-                  com.bhauman/figwheel-main {:mvn/version "0.2.4"}
+                  com.bhauman/figwheel-main {:mvn/version "0.2.18"}
                   org.slf4j/slf4j-nop {:mvn/version "2.0.5"}}
                  :extra-paths ["target" "test"]}
            :nrepl {:extra-deps
                    {nrepl/nrepl {:mvn/version "0.7.0"}
                     cider/piggieback {:mvn/version "0.4.2"}
                     cider/cider-nrepl {:mvn/version "0.24.0"}}
-                   :main-opts ["-m" "figwheel.nrepl" "-b" "dev"]}
+                   :main-opts ["-m" "figwheel.nrepl" "-b" "dev"]}}}
