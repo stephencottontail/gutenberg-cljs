@@ -2,10 +2,9 @@
         org.clojure/clojurescript {:mvn/version "1.11.4"}
         com.bhauman/figwheel-main {:mvn/version "0.2.18"}
         reagent/reagent {:mvn/version "1.1.1" :exclusions [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server]}}
- :paths ["src" "resources"]
+ :paths ["src" "resources" "target" "test"]
  :aliases {:fig {:extra-deps
                  {com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
-
                   org.slf4j/slf4j-nop {:mvn/version "2.0.5"}}
                  :extra-paths ["target" "test"]}
            :nrepl {:extra-deps

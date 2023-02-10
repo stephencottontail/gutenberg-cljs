@@ -11,6 +11,6 @@
    [:h1 "Hello Reagent!"]])
 
 (defn mount [el]
-  (.render el "Hello Reagent + React 18"))
+  (.render el (r/as-element [hello-world])))
 
 (mount root)
