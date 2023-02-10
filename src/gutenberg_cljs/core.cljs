@@ -1,16 +1,16 @@
 (ns ^:figwheel-hooks gutenberg-cljs.core
   (:require
    [goog.dom :as gdom]
-   [reagent.dom :as rdom]))
+   [reagent.core :as r]
+   ["react-dom/client" :refer [createRoot]]))
 
-(defn get-app-element []
-  (gdom/getElement "app"))
+(defonce root (createRoot (gdom/getElement "app")))
 
 (defn hello-world []
   [:div
    [:h1 "Hello Reagent!"]])
 
 (defn mount [el]
-  (rdom/render [hello-world] el))
+  (.render el (r/as-element [hello-world])))
 
-(mount (get-app-element))
+(mount root)
