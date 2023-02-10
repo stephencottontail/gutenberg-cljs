@@ -5,6 +5,8 @@ Can you make Gutenberg blocks with ClojureScript?
 * [X] Build tool/REPL
 * [X] Plugin skeleton
 * [ ] Set up Gutenberg environment for testing
+	* [X] Get editor to actually appear
+	* [ ] Save/load functionality
 * [ ] Separate builds for dev and prod
 	* [X] Make aliases for both
 
@@ -12,7 +14,7 @@ Can you make Gutenberg blocks with ClojureScript?
 
 * [X] Custom `index.html` to hold the editor
 * [X] Render something correctly upon page load
-* [ ] Get editor to show up
+* [X] Get editor to show up
 * [ ] Basic editor functionality
 
 ## Conjure
