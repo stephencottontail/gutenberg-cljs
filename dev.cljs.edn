@@ -1,5 +1,6 @@
 ^{:watch-dirs ["src"]
   :css-dirs ["resources/public/css"]
   :auto-testing true
+  :bundle-freq :smart
   :auto-bundle :webpack}
 {:main gutenberg-cljs.core}
