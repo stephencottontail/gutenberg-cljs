@@ -1,6 +1,10 @@
 ^{:watch-dirs ["src"]
   :css-dirs ["resources/public/css"]
   :auto-testing true
-  :bundle-freq :smart
-  :auto-bundle :webpack}
-{:main gutenberg-cljs.core}
+  :bundle-freq :smart}
+{:main gutenberg-cljs.core
+ :target :bundle
+ :bundle-cmd {:none ["npx" "webpack" "--mode=development"
+                     "--entry" :output-to
+                     "--output-path" :final-output-dir
+	             "--output-filename" :final-output-filename]}}
